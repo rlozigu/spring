@@ -1,0 +1,11 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<!--hello empty는 모에요?
+파일을 서버없이 열어도 껍데기를 볼 수 있어욘
+그때 나오는 껍데기가 hello empty고
+서버를 타고 템플릿이 정상동작을 하면 th:text안에 있는 값으로 내용이 치환됩니다.
+서버 없이 그냥 html만들어 볼 때 값을 적어놓고 볼 수 있도록?-->
+<p th:text="'hello ' + ${name}" >hello! empty</p>
+</body>
+</html>
